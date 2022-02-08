@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.card{
+ width: 300px;
+ margin: 30px;
+ box-shadow: 4px 6px 12px 2px rgba(0,0,0,0.75);
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ border-radius: 5px;
+ display: inline-block;
+}
+
+.bg-image{
+ height: 100px;
+ background-image: url(/img/image-2.jpg);
+ background-size: cover;
+ border-radius: 5px 5px 0 0;
+}
+
+.title-space{
+  padding: 15px 10px 0;
+  color: coral;
+}
+
+.p-space{
+    text-align: justify;
+    padding: 15px 10px;
+}
+
+.button-style{
+    margin: 0 0 15px 10px;
+    padding: 7px;
+    border: 1px solid;
+    background-color: coral;
+    border-radius: 5px;
+    color: cornsilk;
+}

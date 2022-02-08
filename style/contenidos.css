@@ -1,0 +1,62 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9c74f ;
+}
+
+h1{
+    color: #d62828;
+    text-align: center;
+}
+
+h2{
+    background-color: #f8f9fa;
+    color: #003049;
+    text-align: center;
+}
+
+h3{
+    background-color: #80ffdb;
+}
+#parrafo-prueba{
+    background-color: darkmagenta;
+}
+
+#lista-prueba{
+    background-color: #f77f00;
+}
+
+.estilo-varios{
+    color: #f8f9fa;
+}
+
+#caja-prueba{
+    width: 400px;
+    height: 300px;
+    background-color: hotpink;
+}
+
+.caja-con-class{
+    width: 400px;
+    height: 300px;
+    background-color: indianred;
+}
+
+.parrafo-div{
+    color: ivory;
+}
+
+.caja-con-imagen{
+    width: 300px;
+    height: 300px;
+    background-color: lawngreen;
+    background-image: url(../img/image-3.jpg);
+}
+
+.caja-con-espacios{
+    height: 300px;
+    width: 300px;
+    background-color:darkmagenta;
+    border: 10px solid red;
+    padding: 30px;
+    margin: 100px;
+}

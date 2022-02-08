@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+   <link rel="stylesheet" href="./style/formulario.css">
+</head>
+<body>
+ <header id="inicio">
+  <h1>CLASE 3 - formulario</h1>
+  <a href="./index.html">
+   <p><i>Link a la primera parte</i></p>
+  </a>
+  <a href="./contenidos.html">
+   <p><i>Link a la segunda parte</i></p>
+  </a>
+ </header>
+<hr>
+
+ <main>
+  <h2><u>Formulario</u></h2>
+  <form>
+   <label>Nombre:</label>
+    <input type="text" placeholder="Ej. Cecilia Luna" value="" maxlength="15" minlength="3" required>
+   <br>
+   <br>
+   <label>DNI:</label>
+    <input type="number" placeholder="Ej. 12345678" value="" max="9999999" required>
+    <br>
+    <br>
+   <label>Contraseña:</label>
+    <input type="password" placeholder="Ej:c0ntr4s3ñ4" required>
+   <br>
+   <br>
+   <label>Email:</label>
+    <input type="email" placeholder="Ej. cecilia@cecilia.com" maxlength="15" required>
+   <br>
+   <br>
+   <label for="">Opciones:</label>
+   <select name="Opciones" id="">
+    <option value="">opción 1</option>
+    <option value="">opción 2</option>
+    <option value="">opción 3</option>
+   </select>
+   <br>
+   <br>
+   <input type="checkbox" id="masculino" > <label for="masculino">Masculino</label>
+   <input type="checkbox" id="femenino"> <label for="femenino">Femenino</label>
+   <br>
+   <br>
+   <input name="btn" type="radio" id="gato"> <label for="gato">Gato</label>
+   <input name="btn" type="radio" id="perro"> <label for="perro">Perro</label>
+   <br>
+   <br>
+   <label for="">Color:</label> <input type="color" name="color" value="">
+   <br>
+   <br>
+   <label for="">Precio estimado:</label> <input type="range">
+   <br>
+   <br>
+   <label for="">Calendario:</label> <input type="date" name="Fecha" id="">
+   <br>
+   <br>
+   <label for="">Comentarios:</label>
+   <br>
+   <br>
+   <textarea name="" id="" cols="40" rows="5"></textarea>
+   <br>
+   <br>
+   <label for="">Cargar:</label> <input type="file" name="" id="">
+   <br>
+   <br>
+   <br>
+   <input type="submit" value="Enviar">
+</form>
+</main>
+
+<hr>
+ <footer>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.8633661384233!2d-65.20204275065782!3d-26.81247888308826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d9370bab425%3A0x4ad656d17e8d3514!2sCancha%20de%20Atletico!5e0!3m2!1ses-419!2sar!4v1636224707610!5m2!1ses-419!2sar" width="50%" height="25%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </footer>
+</body>
+</html>
